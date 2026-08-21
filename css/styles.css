@@ -469,29 +469,18 @@ h2 {
 }
 
 .project-visual {
-  height: 9.5rem;
+  height: 10rem;
   display: grid;
   place-items: center;
-  background: var(--paper-2);
+  background: var(--cream);
 }
 
 .project-visual img {
-  width: 4.6rem;
-  height: 4.6rem;
+  width: 5.4rem;
+  height: 5.4rem;
   object-fit: contain;
-  border-radius: 1.1rem;
-}
-
-.mark {
-  width: 4.2rem;
-  height: 4.2rem;
-  border-radius: 1.1rem;
-  display: grid;
-  place-items: center;
-  color: var(--white);
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: 0.04em;
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 22px rgba(44, 42, 40, 0.12);
 }
 
 .project-body {
