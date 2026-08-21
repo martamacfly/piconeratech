@@ -469,6 +469,7 @@ h2 {
 }
 
 .project-visual {
+  position: relative;
   height: 10rem;
   display: grid;
   place-items: center;
@@ -481,6 +482,37 @@ h2 {
   object-fit: contain;
   border-radius: 1.2rem;
   box-shadow: 0 10px 22px rgba(44, 42, 40, 0.12);
+}
+
+.project-visual.has-banner {
+  height: 10.8rem;
+  overflow: hidden;
+  background: #1a1816;
+}
+
+.project-visual.has-banner .project-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.project-visual.has-banner.banner-wide .project-banner {
+  object-fit: contain;
+}
+
+.project-visual.has-banner .project-logo {
+  position: absolute;
+  left: 0.8rem;
+  bottom: 0.7rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  border-radius: 0.85rem;
+  background: var(--cream);
+  border: 2px solid var(--cream);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 
 .project-body {
