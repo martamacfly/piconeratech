@@ -502,6 +502,15 @@ h2 {
   object-fit: contain;
 }
 
+.project-visual.has-banner.banner-square {
+  height: 13.5rem;
+  background: #12081c;
+}
+
+.project-visual.has-banner.banner-square .project-banner {
+  object-fit: contain;
+}
+
 .project-visual.has-banner .project-logo {
   position: absolute;
   left: 0.8rem;
