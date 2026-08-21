@@ -515,6 +515,14 @@ h2 {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 
+.project-visual.has-banner .project-logo.logo-round {
+  width: 3.9rem;
+  height: 3.9rem;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #111;
+}
+
 .project-body {
   padding: 1.15rem 1.2rem 1.3rem;
   display: flex;
