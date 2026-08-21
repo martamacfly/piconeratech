@@ -600,29 +600,122 @@ h2 {
   font-size: 0.82rem;
 }
 
-.contact-box {
-  display: grid;
-  gap: 1.4rem;
+.contact {
+  padding: 4.5rem 0 5rem;
 }
 
-@media (min-width: 800px) {
-  .contact-box {
-    grid-template-columns: 1fr 1fr;
+.contact-panel {
+  display: grid;
+  gap: 1.8rem;
+  padding: 2rem 1.5rem;
+  border-radius: 1.6rem;
+  background:
+    linear-gradient(165deg, color-mix(in srgb, var(--copper) 88%, #7a3e28), var(--copper-deep));
+  color: var(--white);
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-panel::after {
+  content: "";
+  position: absolute;
+  inset: auto -2rem -3rem auto;
+  width: 14rem;
+  height: 14rem;
+  opacity: 0.14;
+  background: url("../assets/azulejo.svg") center / contain no-repeat;
+  pointer-events: none;
+}
+
+@media (min-width: 840px) {
+  .contact-panel {
+    grid-template-columns: 1.15fr 0.85fr;
     align-items: center;
+    padding: 2.6rem 2.4rem;
+    gap: 2.4rem;
   }
 }
 
-.contact-list {
+.contact-copy h2 {
+  margin: 0 0 0.75rem;
+  max-width: 18ch;
+}
+
+.contact-copy .eyebrow,
+.contact-copy .lede {
+  color: color-mix(in srgb, white 86%, transparent);
+}
+
+.contact-copy .lede {
+  margin: 0 0 1.4rem;
+}
+
+.contact-copy .btn-primary {
+  background: var(--cream);
+  color: var(--copper-deep);
+}
+
+.contact-copy .btn-primary:hover,
+.contact-copy .btn-primary:focus-visible {
+  background: var(--white);
+}
+
+.contact-place {
+  margin: 0.9rem 0 0;
+  font-size: 0.92rem;
+  color: color-mix(in srgb, white 78%, transparent);
+}
+
+.contact-channels {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   gap: 0.7rem;
+  position: relative;
+  z-index: 1;
 }
 
-.contact-list a {
-  color: var(--copper-deep);
-  font-weight: 600;
+.contact-channels a {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  padding: 0.85rem 0.95rem;
+  border-radius: 1rem;
+  background: color-mix(in srgb, white 12%, transparent);
+  border: 1px solid color-mix(in srgb, white 22%, transparent);
+  color: var(--white);
+  transition: background 0.15s ease;
+}
+
+.contact-channels a:hover,
+.contact-channels a:focus-visible {
+  background: color-mix(in srgb, white 20%, transparent);
+}
+
+.contact-channels strong {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact-handle {
+  display: block;
+  font-size: 0.95rem;
+  opacity: 0.88;
+}
+
+.contact-ico {
+  flex: 0 0 2.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.7rem;
+  background: color-mix(in srgb, white 16%, transparent);
 }
 
 .site-footer {
@@ -689,7 +782,8 @@ h2 {
   }
 
   .btn,
-  .project {
+  .project,
+  .contact-channels a {
     transition: none;
   }
 }
