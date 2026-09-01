@@ -379,39 +379,11 @@ h2 {
   opacity: 0.55;
 }
 
-.studio-grid {
-  display: grid;
-  gap: 1.4rem;
-}
-
-@media (min-width: 800px) {
-  .studio-grid {
-    grid-template-columns: 1.3fr 0.7fr;
-  }
-}
-
 .card {
   background: var(--cream);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 1.4rem 1.35rem;
-}
-
-.facts {
-  display: grid;
-  gap: 0.8rem;
-}
-
-.facts dt {
-  font-size: 0.75rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--copper);
-}
-
-.facts dd {
-  margin: 0.15rem 0 0;
-  font-size: 1.05rem;
 }
 
 .filters {
