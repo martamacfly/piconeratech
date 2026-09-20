@@ -435,7 +435,7 @@ h2 {
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-.project:hover {
+a.project:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow);
 }
@@ -539,6 +539,12 @@ h2 {
 .tag-store {
   border-color: color-mix(in srgb, var(--copper) 45%, var(--line));
   color: var(--copper-deep);
+}
+
+.tag-soon {
+  border-color: color-mix(in srgb, var(--ember) 50%, var(--line));
+  color: var(--copper-deep);
+  background: color-mix(in srgb, var(--ember) 16%, var(--cream));
 }
 
 .approach {
