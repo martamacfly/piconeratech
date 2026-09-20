@@ -1,6 +1,6 @@
 # Piconera Tech
 
-Landing del estudio. Sitio estático listo para [GitHub Pages](https://pages.github.com/).
+Landing de desarrollo de aplicaciones. Sitio estático listo para [GitHub Pages](https://pages.github.com/).
 
 Vista local: abre `index.html` en el navegador o sirve la carpeta:
 
@@ -20,7 +20,7 @@ Si prefieres el dominio de usuario (`https://martamacfly.github.io/`), copia el 
 ## Qué incluye esta base
 
 - Identidad a partir del logo de cobre y de los moodboards andaluces.
-- Porfolio extraído de los proyectos en `developeh`: Checkeasy, Comi2, Mestruendo, MoyBi, My Escapes, Rocketa, YouList y Slash Highlight.
+- Porfolio extraído de los proyectos en `developeh`: Checkeasy, Comi2, Mestruendo, MoyBi, Rocketa, YouList y Slash Highlight.
 - Filtros de proyectos, menú móvil y página 404.
 
 Los moodboards de referencia están en `assets/brand-refs/` y no se muestran en la web.
