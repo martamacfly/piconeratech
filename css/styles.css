@@ -247,9 +247,59 @@ h2 {
 .btn:focus-visible,
 .filter:focus-visible,
 .nav-links a:focus-visible,
-.brand:focus-visible {
+.brand:focus-visible,
+.lang-btn:focus-visible {
   outline: 2px solid var(--copper);
   outline-offset: 3px;
+}
+
+.nav-tools {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.18rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--cream);
+}
+
+.lang-btn {
+  display: grid;
+  place-items: center;
+  width: 2.15rem;
+  height: 1.85rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.lang-btn.is-active {
+  opacity: 1;
+  background: var(--white);
+  box-shadow: 0 1px 4px rgba(122, 62, 40, 0.16);
+}
+
+.lang-btn svg {
+  width: 1.35rem;
+  height: 0.9rem;
+  display: block;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(44, 42, 40, 0.12);
+}
+
+.page-404 .lang-bar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .btn-primary {
@@ -670,6 +720,7 @@ a.project:hover {
 }
 
 .page-404 {
+  position: relative;
   min-height: 100vh;
   display: grid;
   place-items: center;

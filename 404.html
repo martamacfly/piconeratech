@@ -3,16 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Página no encontrada — Piconera Tech</title>
+    <title data-i18n="notfound.title">Página no encontrada — Piconera Tech</title>
     <link rel="icon" href="assets/mark.png" type="image/png" />
-    <link rel="stylesheet" href="css/styles.css?v=20260927a" />
+    <link rel="stylesheet" href="css/styles.css?v=20260927b" />
   </head>
   <body class="page-404">
+    <div class="lang-bar">
+      <div class="lang-switch" role="group" aria-label="Idioma" data-i18n-aria="lang.group">
+        <button class="lang-btn is-active" type="button" data-set-lang="es" aria-pressed="true" aria-label="Español">
+          <svg viewBox="0 0 24 16" aria-hidden="true" focusable="false">
+            <rect width="24" height="16" fill="#AA151B" />
+            <rect y="4" width="24" height="8" fill="#F1BF00" />
+          </svg>
+        </button>
+        <button class="lang-btn" type="button" data-set-lang="en" aria-pressed="false" aria-label="English">
+          <svg viewBox="0 0 60 30" aria-hidden="true" focusable="false">
+            <defs>
+              <clipPath id="uk-flag">
+                <rect width="60" height="30" />
+              </clipPath>
+            </defs>
+            <g clip-path="url(#uk-flag)">
+              <rect width="60" height="30" fill="#012169" />
+              <path d="M0,0 L60,30" stroke="#fff" stroke-width="6" />
+              <path d="M60,0 L0,30" stroke="#fff" stroke-width="6" />
+              <path d="M0,0 L60,30" stroke="#C8102E" stroke-width="4" />
+              <path d="M60,0 L0,30" stroke="#C8102E" stroke-width="4" />
+              <path d="M30,0 V30" stroke="#fff" stroke-width="10" />
+              <path d="M0,15 H60" stroke="#fff" stroke-width="10" />
+              <path d="M30,0 V30" stroke="#C8102E" stroke-width="6" />
+              <path d="M0,15 H60" stroke="#C8102E" stroke-width="6" />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
     <main class="not-found">
       <p class="eyebrow">404</p>
-      <h1>Esta página no está en el mapa.</h1>
-      <p>Vuelve al inicio de Piconera Tech.</p>
-      <a class="btn btn-primary" href="index.html">Ir al inicio</a>
+      <h1 data-i18n="notfound.heading">Esta página no está en el mapa.</h1>
+      <p data-i18n="notfound.text">Vuelve al inicio de Piconera Tech.</p>
+      <a class="btn btn-primary" href="index.html" data-i18n="notfound.home">Ir al inicio</a>
     </main>
+    <script src="js/main.js?v=20260927b"></script>
   </body>
 </html>
