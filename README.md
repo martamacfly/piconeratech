@@ -26,7 +26,7 @@ Si prefieres el dominio de usuario (`https://martamacfly.github.io/`), copia el 
 ### Qué incluye esta base
 
 - Identidad a partir del logo de cobre y de los moodboards andaluces.
-- Porfolio extraído de los proyectos en `developeh`: YouList, Bienestoy, Checkeasy, Comi2, Mestruendo, MoyBi, Rocketa, Shame y Slash Highlight.
+- Porfolio extraído de los proyectos en `developeh`: YouList, Bienestoy, Checkeasy, Comi2, Mestruendo, MoyBi, Rocketa, Shame! y Slash Highlight.
 - Filtros de proyectos, menú móvil, página 404 e interruptor de idioma español/inglés.
 
 Los moodboards de referencia están en `assets/brand-refs/` y no se muestran en la web.
@@ -53,7 +53,7 @@ If you prefer the user site (`https://martamacfly.github.io/`), copy the content
 ### What this base includes
 
 - Identity based on the copper logo and the Andalusian moodboards.
-- Portfolio drawn from the projects in `developeh`: YouList, Bienestoy, Checkeasy, Comi2, Mestruendo, MoyBi, Rocketa, Shame, and Slash Highlight.
+- Portfolio drawn from the projects in `developeh`: YouList, Bienestoy, Checkeasy, Comi2, Mestruendo, MoyBi, Rocketa, Shame!, and Slash Highlight.
 - Project filters, mobile menu, 404 page, and a Spanish/English language switch.
 
 Reference moodboards live in `assets/brand-refs/` and are not shown on the site.
