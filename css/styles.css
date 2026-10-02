@@ -528,6 +528,17 @@ a.project:hover {
   object-fit: contain;
 }
 
+.project-visual.has-banner.banner-full {
+  height: auto;
+}
+
+.project-visual.has-banner.banner-full .project-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .project-visual.has-banner .project-logo {
   position: absolute;
   left: 0.8rem;
