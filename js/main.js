@@ -60,6 +60,7 @@ const copy = {
     "moybi.desc": "Tu catálogo de monedas y billetes: fotos, etiquetas y colecciones, en el dispositivo.",
     "rocketa.aria": "Rocketa en Google Play",
     "rocketa.alt": "Icono de Rocketa",
+    "rocketa.banner": "assets/apps/banners/rocketa.jpg?v=20261019",
     "rocketa.desc": "Despega en el momento justo y deja que la gravedad te lleve a la meta. 64 niveles.",
     "shame.alt": "Icono de Shame!",
     "shame.desc": "Juego de mesa verbal: un grupo, un móvil y cartas de anécdotas para contar en voz alta.",
@@ -142,6 +143,7 @@ const copy = {
     "moybi.desc": "Your catalog of coins and banknotes: photos, tags, and collections, on the device.",
     "rocketa.aria": "Rocketa on Google Play",
     "rocketa.alt": "Rocketa icon",
+    "rocketa.banner": "assets/apps/banners/rocketa-en.jpg?v=20261019",
     "rocketa.desc": "Launch at the right moment and let gravity carry you to the goal. 64 levels.",
     "shame.alt": "Shame! icon",
     "shame.desc": "Spoken party game: one group, one phone, and anecdote cards to tell out loud.",
@@ -198,6 +200,11 @@ function applyLanguage(lang) {
   document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
     const value = text[el.dataset.i18nAlt];
     if (value != null) el.setAttribute("alt", value);
+  });
+
+  document.querySelectorAll("[data-i18n-src]").forEach((el) => {
+    const value = text[el.dataset.i18nSrc];
+    if (value != null) el.setAttribute("src", value);
   });
 
   document.querySelectorAll("[data-i18n-content]").forEach((el) => {
