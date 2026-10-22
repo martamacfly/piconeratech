@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="84 84 344 344" role="img" aria-label="Shame!">
-  <circle cx="256" cy="256" r="168" fill="#ffe4ee"/>
+  <circle cx="256" cy="256" r="168" fill="#ff3b6b"/>
   <circle cx="256" cy="256" r="168" fill="none" stroke="#ff3b6b" stroke-width="4"/>
   <circle cx="256" cy="256" r="158" fill="none" stroke="#f6efe6" stroke-width="3"/>
 
@@ -35,5 +35,5 @@
 
   <path d="M308 150q8-14 2-22" fill="none" stroke="#1b1014" stroke-width="7" stroke-linecap="round"/>
   <path d="M330 162q12-12 4-22" fill="none" stroke="#1b1014" stroke-width="7" stroke-linecap="round"/>
-  <path d="M350 180q10-8 8-18" fill="none" stroke="#ff3b6b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M350 180q10-8 8-18" fill="none" stroke="#fffaf3" stroke-width="7" stroke-linecap="round"/>
 </svg>
