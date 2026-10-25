@@ -482,12 +482,6 @@ h2 {
   min-height: 100%;
   text-decoration: none;
   overflow: hidden;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-a.project:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow);
 }
 
 .project-visual {
@@ -590,21 +584,52 @@ a.project:hover {
   font-size: 0.72rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  border: 1px solid var(--line);
+  --tag: var(--ink-soft);
+  border: 1px solid color-mix(in srgb, var(--tag) 30%, var(--line));
   border-radius: 999px;
   padding: 0.18rem 0.5rem;
-  color: var(--ink-soft);
+  color: color-mix(in srgb, var(--tag) 75%, var(--ink));
+  background: color-mix(in srgb, var(--tag) 7%, var(--cream));
 }
 
-.tag-store {
-  border-color: color-mix(in srgb, var(--copper) 45%, var(--line));
-  color: var(--copper-deep);
+.tag-android { --tag: #3a8f55; }
+.tag-web { --tag: #3c73b5; }
+.tag-windows { --tag: #1d8c9c; }
+.tag-chrome { --tag: #b8860b; }
+.tag-obsidian { --tag: #7656c0; }
+.tag-game { --tag: #c8553d; }
+.tag-app { --tag: var(--copper); }
+.tag-tool { --tag: #5f6b78; }
+.tag-addon { --tag: #8a5a9e; }
+.tag-group { --tag: #c24d7c; }
+.tag-opensource { --tag: #6b7f2a; }
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 0.6rem;
 }
 
-.tag-soon {
+.project-actions .btn {
+  padding: 0.55rem 1.05rem;
+  font-size: 0.92rem;
+}
+
+.project-actions .btn-primary::after {
+  content: "↗";
+  font-size: 0.85em;
+}
+
+.btn-soon {
   border-color: color-mix(in srgb, var(--ember) 50%, var(--line));
   color: var(--copper-deep);
   background: color-mix(in srgb, var(--ember) 16%, var(--cream));
+  cursor: default;
+}
+
+.btn-soon:hover {
+  transform: none;
 }
 
 .approach {
@@ -775,8 +800,7 @@ a.project:hover {
     scroll-behavior: auto;
   }
 
-  .btn,
-  .project {
+  .btn {
     transition: none;
   }
 }
