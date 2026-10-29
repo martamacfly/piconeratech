@@ -616,7 +616,8 @@ h2 {
   font-size: 0.92rem;
 }
 
-.project-actions .btn-primary::after {
+.project-actions .btn-primary::after,
+.project-actions .btn-ghost::after {
   content: "↗";
   font-size: 0.85em;
 }
