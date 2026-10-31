@@ -75,6 +75,12 @@ const copy = {
     "tetengocalado.desc":
       "Todos responden en secreto y tú adivinas el orden. Un juego en grupo para ver cuánto conoces a tu gente.",
     "tetengocalado.url": "https://tetengocalado.com/es",
+    "pasaratos.aria": "Pasaratos, jugar en el navegador",
+    "pasaratos.repoAria": "Pasaratos en GitHub",
+    "pasaratos.alt": "Icono de Pasaratos",
+    "pasaratos.banner": "assets/apps/banners/pasaratos.jpg?v=20261031",
+    "pasaratos.desc":
+      "17 pasatiempos de números, palabras y lógica: sudoku, crucigrama, sopa de letras y más. Con reto del día, niveles y logros.",
     "quotadock.aria": "QuotaDock en GitHub: código y descargas para Windows",
     "quotadock.alt": "Icono de QuotaDock",
     "quotadock.banner": "assets/apps/banners/quotadock.png?v=20261025",
@@ -178,6 +184,12 @@ const copy = {
     "tetengocalado.desc":
       "Everyone answers in secret and you guess the order. A group game to see how well you know your people.",
     "tetengocalado.url": "https://tetengocalado.com/en",
+    "pasaratos.aria": "Pasaratos, play in your browser",
+    "pasaratos.repoAria": "Pasaratos on GitHub",
+    "pasaratos.alt": "Pasaratos icon",
+    "pasaratos.banner": "assets/apps/banners/pasaratos-en.jpg?v=20261031",
+    "pasaratos.desc":
+      "17 number, word and logic puzzles: sudoku, crosswords, word search and more. With a daily challenge, levels and achievements.",
     "quotadock.aria": "QuotaDock on GitHub: source code and Windows downloads",
     "quotadock.alt": "QuotaDock icon",
     "quotadock.banner": "assets/apps/banners/quotadock-en.png?v=20261025",
